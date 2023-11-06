@@ -73,7 +73,13 @@ a:hover{
 
 
 /* MY STYLES */
-
+.bg-gradient-blue-green{
+    background-color: rgba(83,187,152,1);
+    background-image: linear-gradient(135deg,rgba(47,145,224,0.91),rgba(7,31,51,0.97) 79%);
+    background-image: linear-gradient(131deg,rgba(28,118,17
+    ,0.92)),
+    rgba(83,184,152,1);
+}
 
 /* // `xs` returns only a ruleset and no media query
 // ... { ... }
