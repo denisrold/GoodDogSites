@@ -19,6 +19,13 @@ body{
 font-family: 'Raleway', sans-serif;
 }
 
+a{
+  color:var(--link-color);
+  transition:all .3s ease-out;  
+}
+a:hover{
+    color:var(--first-color);
+}
 /* BOOTSTRAP STYLES */
 .bg-dark{
     background-color: var(--second-color) !important;
