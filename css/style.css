@@ -80,6 +80,9 @@ a:hover{
     ,0.92)),
     rgba(83,184,152,1);
 }
+.bg-color{
+    background-color: var(--bg-color);
+}
 
 .bg-third-color {
     background-color: var(--third-color);
