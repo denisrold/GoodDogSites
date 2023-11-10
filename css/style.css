@@ -82,6 +82,9 @@ a:hover{
     opacity: 0.75;
   }
 
+  .carousel-caption{
+    z-index: 99;
+  }
 
 /* MY STYLES */
 
