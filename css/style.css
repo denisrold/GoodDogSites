@@ -84,6 +84,8 @@ a:hover{
 
 
 /* MY STYLES */
+
+
 .bg-gradient-blue-green{
     background-color: rgba(83,187,152,1);
     background-image: linear-gradient(135deg,rgba(47,145,224,0.91),rgba(7,31,51,0.97) 79%);
@@ -112,6 +114,7 @@ a:hover{
 .bg-third-color {
     background-color: var(--third-color);
 }
+
 .text-first-color{
     color:var(--first-color);
 }
