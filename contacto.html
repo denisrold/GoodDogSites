@@ -57,21 +57,49 @@
     <main class="pt-5 bg-color">
         <div class="container mb-5">
           <section class="row">
-            <artile class="col-12 text-center">
+            <article class="col-12 text-center">
               <h1>¿Interesad@?</h1>
               <p class="fs-5">Enviame tus comentarios!</p>
-              <p class="fs-5">
+              <p class="fs-5 mb-5">
                 Para más información, puedes contactarme en <a href="mailto:info@studiogooddog.com">info@studiogooddog.com</a>
               </p>
-            </artile>
-            <artile class="col-12 col-lg-6 order-lg-1">
-              Formulario
-            </artile>
-            <artile class="col-12 col-lg-6">
+            </article>
+            <article class="col-12 col-lg-6 order-lg-1">
+
+              <form action="">
+                <label class="form-label" for="name">Nombre:</label>
+                <input
+                 class="form-control"
+                 id="name"
+                 name=""
+                 type="text"
+                 placeholder="Tu nombre..."
+                 required />
+                 <label class="form-label" for="email">Email:</label>
+                 <input
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Tu email@mail.com"
+                  required />
+                  <label class="form-label" for="comments">Comentarios:</label>
+                  <textarea
+                   class="form-control"
+                   id="comments"
+                   name="comments"
+                   placeholder="Déjanos tus comentarios"
+                   required ></textarea>
+                  <input type="submit" class="my-3 form-control">
+              </form>
+           
+
+            </article>
+            <article class="col-12 col-lg-6">
               <div class="ratio ratio-16x9">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13390.7687312225!2d-60.679655591410125!3d-32.95913543773015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab71d4358d3f%3A0xb7ef373f1ab15369!2sParque%20Independencia%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1699610823447!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
-            </artile>
+            </article>
           </section>
         </div>
       
@@ -81,7 +109,8 @@
               
                 <aside>
                   <p class="fs-4"><b>Denis Roldán</b></p>
-                  <p class="fs-5  d-sm-block">Desarrollador Web.</p>
+                  <small class="d-sm-none">Desarrollador Web.</small>
+                  <p class="fs-5 d-none d-sm-block">Desarrollador Web.</p>
                 </aside>
                 <aside class="d-none d-md-block">
                   <p>Comencé a crear sitios y aplicaciones web en <b>2023</b>.</p>
