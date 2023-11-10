@@ -83,7 +83,7 @@ a:hover{
   }
 
   .carousel-caption{
-    z-index: 99;
+    z-index: 1;
   }
 
 /* MY STYLES */
