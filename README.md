@@ -15,6 +15,5 @@
 <b>HTML, JS, CSS, Bootstrap.</b></h4>
 
 <br/>
-<i>*Ningun developer fue herido en el desarrollo de esta Web App.</i>
 
 </div>
